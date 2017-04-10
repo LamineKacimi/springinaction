@@ -23,16 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cea6122-3e23-406c-aa58-a28639f832b0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springinaction.iml" afterPath="$PROJECT_DIR$/springinaction.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/springinaction/config/KnightConfig.java" afterPath="$PROJECT_DIR$/src/main/java/org/springinaction/config/KnightConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/springinaction/knights/BraveKnight.java" afterPath="$PROJECT_DIR$/src/main/java/org/springinaction/knights/BraveKnight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/springinaction/main/KnightMain.java" afterPath="$PROJECT_DIR$/src/main/java/org/springinaction/main/KnightMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/springinaction/minstrel/Minstrel.java" afterPath="$PROJECT_DIR$/src/main/java/org/springinaction/minstrel/Minstrel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/springinaction/quests/RescueDamselQuest.java" afterPath="$PROJECT_DIR$/src/main/java/org/springinaction/quests/RescueDamselQuest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/springinaction/quests/SlayDragonQuest.java" afterPath="$PROJECT_DIR$/src/main/java/org/springinaction/quests/SlayDragonQuest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/springinaction/knights/BraveKnightTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/springinaction/knights/BraveKnightTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -50,16 +41,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Knight.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/springinaction/knights/Knight.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,13 +64,23 @@
       <file leaf-file-name="BraveKnightTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/springinaction/knights/BraveKnightTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="492">
+              <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#821#822#0" expanded="true" />
                 <element signature="e#869#870#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Assert.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9178">
+              <caret line="369" column="26" lean-forward="false" selection-start-line="369" selection-start-column="26" selection-end-line="369" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,19 +138,6 @@
                 <element signature="e#383#384#0" expanded="false" />
                 <element signature="e#411#412#0" expanded="false" />
                 <element signature="e#488#489#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListableBeanFactory.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/ListableBeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="56" column="17" lean-forward="false" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#15166#0" expanded="false" />
-                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -1050,7 +1028,7 @@
       <updated>1491490415771</updated>
       <workItem from="1491490419202" duration="3427000" />
       <workItem from="1491496342831" duration="8443000" />
-      <workItem from="1491600403929" duration="670000" />
+      <workItem from="1491600403929" duration="1021000" />
     </task>
     <task id="LOCAL-00001" summary="commit message">
       <created>1491496646977</created>
@@ -1080,7 +1058,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491502611983</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added failing test&#10;">
+      <created>1491836876078</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1491836876078</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1095,7 +1080,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12540000" />
+    <option name="totallyTimeSpent" value="12891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -1143,7 +1128,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit message" />
     <MESSAGE value="added AOP&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="added AOP&#10;" />
+    <MESSAGE value="added failing test&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added failing test&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1530,10 +1516,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9178">
+          <caret line="369" column="26" lean-forward="false" selection-start-line="369" selection-start-column="26" selection-end-line="369" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/springinaction/knights/BraveKnightTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="492">
+          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#821#822#0" expanded="true" />

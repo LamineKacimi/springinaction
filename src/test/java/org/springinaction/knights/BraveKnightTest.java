@@ -27,7 +27,7 @@ public class BraveKnightTest {
 
     @Test
     public void dummyTest(){
-        Assert.assertEquals("Equal",2,1);
+        Assert.assertEquals("Equal",2,2);
     }
 
 }
