@@ -3,6 +3,7 @@ package org.springinaction.minstrel;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.io.PrintStream;
@@ -13,10 +14,11 @@ import java.io.PrintStream;
 @Aspect
 @Component
 public class Minstrel {
+
     private PrintStream stream;
 
-    public Minstrel(PrintStream stream) {
-        this.stream = stream;
+    public Minstrel() {
+        this.stream = System.out;
     }
 
     @Before("execution(* *.embarkOnQuest(..))")

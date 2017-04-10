@@ -1,6 +1,7 @@
 package org.springinaction.config;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springinaction.knights.BraveKnight;
@@ -14,7 +15,9 @@ import org.springinaction.quests.SlayDragonQuest;
  */
 @Configuration
 @EnableAspectJAutoProxy
+@ComponentScan("org.springinaction")
 public class KnightConfig {
+   /*
     @Bean
     public Knight knight(){
         return new BraveKnight(quest());
@@ -29,4 +32,5 @@ public class KnightConfig {
     public Minstrel minstrel(){
         return new Minstrel(System.out);
     }
+    */
 }
