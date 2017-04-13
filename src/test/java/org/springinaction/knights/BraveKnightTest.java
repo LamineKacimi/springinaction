@@ -30,4 +30,12 @@ public class BraveKnightTest {
         Assert.assertEquals("Equal",2,2);
     }
 
+    /**
+     * Will this trigger a Jenkins build?
+     */
+    @Test
+    public void anotherDummyTest(){
+        Assert.assertTrue(true);
+    }
+
 }
